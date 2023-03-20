@@ -1,0 +1,25 @@
+{
+  "name": "esm-importer",
+  "version": "1.0.0",
+  "description": "Imports all es modules in the provided relative path",
+  "main": "index.js",
+  "keywords": [
+    "import",
+    "all",
+    "es",
+    "modules",
+    "es-module-importer",
+    "esm-importer",
+    "esm"
+  ],
+  "author": "Ufuk Bakan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ufukbakan/esm-importer.git"
+  },
+  "homepage": "https://github.com/ufukbakan/esm-importer",
+  "dependencies": {
+    "parent-module": "^3.0.0"
+  }
+}
