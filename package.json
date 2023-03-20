@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Imports all es modules in the provided relative path",
   "main": "index.js",
+  "type": "module",
   "keywords": [
     "import",
     "all",
