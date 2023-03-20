@@ -11,6 +11,6 @@ type Module<T> = {
     value: T;
 }
 
-declare function importAll<T = any>(relativePath?: StringStartsWithDot, options?: Options): Module<T>[];
+declare async function importAll<T = any>(relativePath?: StringStartsWithDot, options?: Options): Module<T>[];
 
 export default importAll;

@@ -1,6 +1,6 @@
 {
   "name": "esm-importer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Imports all es modules in the provided relative path",
   "main": "index.js",
   "type": "module",
