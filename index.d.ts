@@ -6,11 +6,11 @@ type Options = {
     recursive: boolean
 }
 
-type Module = {
+type Module<T> = {
     filename: string;
-    value: any;
+    value: T;
 }
 
-declare function importAll(relativePath?: StringStartsWithDot, options?: Options): Module[];
+declare function importAll<T = any>(relativePath?: StringStartsWithDot, options?: Options): Module<T>[];
 
 export default importAll;
